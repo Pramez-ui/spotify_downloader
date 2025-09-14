@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spotify Playlist Downloader</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="container">
+    <h1>🎵 Spotify Playlist Downloader</h1>
+    <form method="POST">
+        <input type="text" name="playlist_url" placeholder="Enter Spotify playlist URL" required>
+        <button type="submit">Fetch Songs</button>
+    </form>
+</div>
+</body>
+</html>
